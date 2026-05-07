@@ -1,0 +1,26 @@
+{
+  "name": "crime-governance-framework",
+  "version": "2.0.0",
+  "description": "Edge-Fog-Cloud Governance Framework for Urban Crime Prediction",
+  "main": "framework.js",
+  "scripts": {
+    "start": "node framework.js",
+    "validate": "node validate.js",
+    "figures": "node generate_figures.js",
+    "pipeline": "node enhanced_framework.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "crime-prediction",
+    "governance",
+    "edge-computing",
+    "fog-computing",
+    "xgboost"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {}
+}
