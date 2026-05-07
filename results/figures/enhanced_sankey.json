@@ -1,0 +1,86 @@
+{
+  "nodes": [
+    {
+      "name": "Input Packets"
+    },
+    {
+      "name": "Dropped - No Consent"
+    },
+    {
+      "name": "Dropped - Wrong Jurisdiction"
+    },
+    {
+      "name": "Dropped - Expired"
+    },
+    {
+      "name": "Dropped - Policy Mismatch"
+    },
+    {
+      "name": "Forwarded to Fog"
+    },
+    {
+      "name": "Fog Aggregation"
+    },
+    {
+      "name": "Cloud Processing"
+    },
+    {
+      "name": "HITL Review"
+    },
+    {
+      "name": "Predictions"
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1,
+      "value": 12000
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "value": 606
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "value": 15000
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "value": 1483
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "value": 11196
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "value": 11196
+    },
+    {
+      "source": 6,
+      "target": 7,
+      "value": 11196
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "value": 11
+    },
+    {
+      "source": 7,
+      "target": 9,
+      "value": 11196
+    },
+    {
+      "source": 8,
+      "target": 9,
+      "value": 11
+    }
+  ]
+}
